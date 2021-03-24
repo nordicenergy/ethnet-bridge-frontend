@@ -1,6 +1,7 @@
-# harmony eth bridge frontend
-Ethereum<>Harmony two way bridge (trusted version)
+# Nordic Energy - Ethreum Bridge Frontend
+Ethereum<>Nordic Energt two way bridge (development)
 
+Based of Harmony One
 
 
 ## Install instructions
@@ -14,7 +15,7 @@ Ethereum<>Harmony two way bridge (trusted version)
 * Fetch repo 
 
 ```
-git clone git@github.com:harmony-one/ethhmy-bridge.frontend.git
+git clone git@github.com:nordicenergy/ethnet-bridge-frontend.git
 ```
 
 * Install dependencies
@@ -58,12 +59,12 @@ The build artificats will be in artifacts/build folder.
 The frontend will be started in http://localhost:8080
 
 ## push to docker hub
-You need to have permission to push to the harmonyone repo.
+You need to have permission to push to the Nordic Energy repo.
 
 ```bash
 sudo docker login
-sudo docker tag ethhmy-fe-web harmonyone/ethhmy-fe-web:latest
-sudo docker push harmonyone/ethhmy-fe-web
+sudo docker tag ethhmy-fe-web nordicenergy/ethnet-fe-web:latest
+sudo docker push nordicenergy/ethnet-fe-web
 ```
 
 You may also push to difference release version other than just `latest`.
